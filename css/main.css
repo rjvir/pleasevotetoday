@@ -1,0 +1,118 @@
+* { 
+	padding:0; 
+	margin: 0; 
+	text-decoration:none;
+	font-family:'Franklin Gothic Medium', georgia, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+html, body {
+	background-image:url(../images/bg.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.container {
+	padding-top:75px;
+}
+
+.form {
+	border-radius:4px;
+	font-size:14px;
+	width:300px;
+	height:100px;
+	padding:10px;
+	border:2px solid #000;
+	font-family:'helvetica neue', helvetica;
+}
+
+h1, h2, p {
+	line-height:1.15em;
+	margin-bottom:16px;
+}
+
+h1 {
+	font-size:42px;
+	letter-spacing:-1px;
+}
+
+h2 {
+	font-size:22px;
+	letter-spacing:-1px;
+}
+
+p {
+	font-family:'helvetica neue',georgia;
+	letter-spacing:0px;
+	font-size:14px;
+	margin-bottom:22px;
+}
+
+.submit {
+	
+	background-color: #7FBF4D;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7FBF4D), color-stop(100%, #63A62F));
+	background-image: -webkit-linear-gradient(top, #7FBF4D, #63A62F);
+	background-image: -moz-linear-gradient(top, #7FBF4D, #63A62F);
+	background-image: -ms-linear-gradient(top, #7FBF4D, #63A62F);
+	background-image: -o-linear-gradient(top, #7FBF4D, #63A62F);
+	background-image: linear-gradient(top, #7FBF4D, #63A62F);
+	border: 1px solid #63A62F;
+	border-bottom: 1px solid #5B992B;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 0 0 #96CA6D;
+	box-shadow: inset 0 1px 0 0 #96CA6D;
+	color: white;
+	font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 7px 0 8px 0;
+	text-align: center;
+	text-shadow: 0 -1px 0 #4C9021;
+	width: 150px;
+	font-size:24px;
+	margin-top:24px;
+	cursor:pointer;
+}
+
+.submit:hover {
+    background-color: #76b347;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+    background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+    background-image: linear-gradient(top, #76b347, #5e9e2e);
+    -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+    box-shadow: inset 0 1px 0 0 #8dbf67;
+    cursor: pointer; 
+}
+
+.submit:active {
+    border: 1px solid #5b992b;
+    border-bottom: 1px solid #538c27;
+    -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; 
+}
+
+.box {
+	width:400px;
+	text-align:center;
+	margin:0 auto;
+	padding:30px;
+	border-radius:30px;
+	background-color:rgba(255,255,255,.8);
+	background-image:url(http://subtlepatterns.com/patterns/crisp_paper_ruffles.png);
+	
+	color:#eee;
+	background: url(http://launchrock.com/images/boxtile.png) repeat;
+	border: 1px solid rgba(90, 90, 90, 0.7);
+	position: relative;
+	margin: 0 auto 40px auto;
+	width: 396px;
+	height: auto;
+	min-height: 380px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	
+	text-shadow: 0 2px 2px black;
+	
+	font-family:futura;
+}

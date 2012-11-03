@@ -1,0 +1,199 @@
+body {
+	background-repeat:repeat;
+	background-image:url(http://subtlepatterns.com/patterns/polaroid.png);
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+.clear {
+	clear:both;
+	
+}
+
+a {
+	color:#2baae1;
+	text-decoration:none;
+}
+
+.thumb-wrapper {
+	display:block;
+	margin-bottom:5px;
+	padding-top:5px;
+	width:220px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height:90px;
+}
+
+.portfolio-item .thumb-wrapper {
+	height:160px;
+}
+
+.thumb-wrapper:hover {	
+	-webkit-box-shadow:0 0 5px #000;
+	-moz-box-shadow:0 0 5px #000;
+	box-shadow:0 0 5px #000;
+	padding-top:0;
+	border-top:5px solid #2baae1;
+}
+
+.thumb {
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#banner h1 a {
+	font-size:48px;
+	line-height:120%;
+	font-weight:normal;
+	color:#cccccc;
+}
+
+#banner h1 a:hover {
+	border-bottom:2px dotted #cccccc;
+	color:#2baae1;
+}
+
+#banner {
+	border-bottom:2px dotted #cccccc;
+	width:940px;
+}
+
+.contact a:hover, p a:hover {
+	color:#ffffff;
+	background-color:#2baae1;
+}
+
+.portfolio-item p {
+	color:#444;
+}
+
+.title {
+	color:#ffffff;
+	background-color:#2baae1;
+}
+
+.name {
+	color:#000000;
+}
+
+.copyright {
+	text-align:center;
+}
+
+.phone p {
+	color:#124961;
+}
+
+h2 {
+	font-size:24px;
+	font-weight:bold;
+	color:#AAA;
+	margin-bottom:0;
+}
+
+.bar p {
+	font-size:16px;
+}
+
+#press h2 {
+	margin-bottom:20px;
+}
+
+#press {
+	margin-bottom:20px;
+}
+
+#press .grid_3 {
+	margin-bottom:20px;
+}
+
+#press .grid_3 a:hover {
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;	
+}
+
+.contact {
+	list-style:none;
+}
+
+.contact li {
+	margin:0;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+	
+	body {
+		min-width: 720px;
+	}
+	
+	.container_12 {
+		width:720px;
+	}
+
+	.grid_12 {
+		width:700px !important;
+	}
+	
+	#banner {
+		width:700px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+
+	body {
+		min-width:240px;
+	}
+
+	.container_12 {
+		width:240px;
+	}
+	
+	.grid_6 {
+		width:240px !important;
+	}
+	
+	#banner h1 a {
+		font-size:28px;
+	}
+	
+	.grid_12 {
+		width:220px !important;
+	}
+	
+	.copyright {
+		font-size:10px;
+	}
+	
+	#banner {
+		width:220px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 719px) {
+
+	body {
+		min-width:480px;
+	}
+
+	.container_12 {
+		width:480px;
+	}
+	
+	.grid_12 {
+		width:460px !important;
+	}
+	
+	#banner {
+		width:460px;
+	}
+}
